@@ -1,0 +1,161 @@
+{
+  "personal_info": {
+    "name": "SHIVAJI CHARAVARTHE M",
+    "location": "Dundalk, IE",
+    "phone": "+353 87 123 4567",
+    "email": "shivaji87123@gmail.com",
+    "links": {
+      "github": "https://github.com/login",
+      "portfolio": "https://portfolio.si",
+      "linkedin": "https://www.linkedin.com/login"
+    }
+  },
+  "professional_summary": "Aspiring Data Analyst with a strong foundation in Python, SQL, Excel, Tableau, and Power BI. Enjoys working with data to uncover patterns, solve problems, and find meaningful insights. Has developed projects focused on ride-sharing optimization and customer churn analysis, applying data cleaning, visualization, and statistical techniques to real-world problems. Eager to use analytical skills to help businesses make better, data-driven decisions while continuing to grow in the field of data analytics.",
+  "technical_skills": {
+    "programming_tools": [
+      "Python",
+      "Excel",
+      "Tableau",
+      "Power BI",
+      "SQL",
+      "Matplotlib"
+    ],
+    "data_management_engineering": [
+      "Data Extraction",
+      "Data Cleaning",
+      "Data Manipulation",
+      "Data Aggregation",
+      "Data Transformation",
+      "Data Profiling",
+      "Relational Database Optimization",
+      "PostgreSQL"
+    ],
+    "statistical_ml": [
+      "Classification",
+      "Clustering Techniques",
+      "Regression Analysis",
+      "Statistical Modeling",
+      "Hypothesis Testing",
+      "Exploratory Data Analysis (EDA)"
+    ],
+    "data_visualization": [
+      "Tableau",
+      "Power BI",
+      "Matplotlib",
+      "Dashboard Design",
+      "Interactive Dashboards",
+      "Data Visualization",
+      "Insight Presentation",
+      "KPI Metrics",
+      "Trend Analysis"
+    ],
+    "business_analytics": [
+      "Marketing Analytics",
+      "Customer Segmentation",
+      "Churn Analysis",
+      "Seasonal Analysis",
+      "Geospatial Analysis",
+      "Sentiment Analysis"
+    ],
+    "tools": [
+      "Python",
+      "SQL",
+      "Excel",
+      "Tableau",
+      "Power BI",
+      "PostgreSQL",
+      "Git",
+      "GitHub"
+    ]
+  },
+  "professional_experience": [
+    {
+      "role": "JUNIOR DATA ANALYST",
+      "company": "DataLab Private Limited",
+      "period": "SEP 2025 – Present",
+      "points": [
+        "Analyze large datasets from relational databases comprising over 2 lakh rows daily to identify trends and support business decisions.",
+        "Develop automated ETL pipelines using Python and SQL, reducing manual processing time by 40% while handling 1.5 million records per day.",
+        "Visualize key performance indicators through 12 interactive Tableau dashboards accessed by 30+ cross functional users daily.",
+        "Collaborate with product managers and engineers to define data requirements, aligning project scope for a team of eight stakeholders.",
+        "Monitor data quality metrics, detecting and resolving anomalies to improve reliability of analytical outputs."
+      ]
+    },
+    {
+      "role": "POWER BI DATA ANALYST ASSOCIATE (PL-300)",
+      "company": "MICROSOFT CERTIFIED",
+      "period": "Credential ID: PL-300",
+      "points": [
+        "Validated expertise in designing scalable data models, cleaning and transforming complex datasets, and enabling advanced analytics capabilities in Power BI.",
+        "Proficient in creating interactive reports, paginated reports, and deploying production dashboards with row-level security (RLS).",
+        "Expertise in writing DAX queries, establishing KPI metrics, and driving data-driven business decisions for cross-functional teams."
+      ]
+    },
+    {
+      "role": "DATA ANALYTICS PROFESSIONAL CERTIFICATE",
+      "company": "GOOGLE CERTIFIED",
+      "period": "Professional Certificate",
+      "points": [
+        "Comprehensive professional training in Python, SQL, Tableau, spreadsheets, and R for complete end-to-end data lifecycles.",
+        "Skilled in data extraction, data cleaning, data profiling, exploratory data analysis (EDA), and insight presentation to executive stakeholders.",
+        "Completed rigorous real-world capstone projects focusing on ride-sharing optimization and customer churn prevention."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Ride IT Analysis",
+      "tools": ["Python", "SQL", "Tableau", "Power BI"],
+      "highlights": [
+        "Developed end-to-end data pipeline in Python and SQL to profile, clean, and transform ride‑booking, cancellation, driver, and rating datasets, reducing data preparation time by 30%.",
+        "Engineered KPI suite and trend analyses using Tableau and Power BI, enabling stakeholders to identify a 12% increase in driver retention after targeted interventions.",
+        "Delivered interactive dashboards for senior leadership, consolidating key metrics and marketing subscription impact, supporting data‑driven decision‑making across product and operations teams."
+      ]
+    },
+    {
+      "name": "Credit Card Customer Churn",
+      "tools": ["Python", "SQL", "Power BI", "Tableau"],
+      "highlights": [
+        "Built predictive churn model in Python leveraging SQL-extracted demographic and usage variables, achieving 85% accuracy in identifying at‑risk cardholders.",
+        "Segmented high‑risk customers by utilization patterns, income, and age, producing actionable cohorts that reduced projected churn by 8% through targeted retention campaigns.",
+        "Designed and deployed interactive Power BI and Tableau dashboards visualizing churn drivers and behavior trends, accelerating executive reporting cycle from weekly to daily."
+      ]
+    },
+    {
+      "name": "Airbnb Data Analysis",
+      "tools": ["Python", "SQL", "Tableau", "Power BI", "Matplotlib"],
+      "highlights": [
+        "Developed Python and SQL pipelines to analyze Airbnb listings, identifying photo and amenity factors that lifted prices by 15%.",
+        "Performed seasonal and location trend analysis with Tableau, pinpointing peak pricing periods and high-value neighborhoods, boosting occupancy by 10%.",
+        "Built interactive Power BI dashboards with Matplotlib visualizations to present price trends and review sentiment, enabling data-driven pricing decisions."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master Of Computer Applications",
+      "school": "Dundalk Institute of Technology | Dundalk City",
+      "cgpa": "First Class Honours",
+      "period": "SEP 2024 – MAY 2026"
+    },
+    {
+      "degree": "Bachelor Of Technology",
+      "school": "CBIT | Hyderabad",
+      "cgpa": "7.34",
+      "period": "JUN 2019 – AUG 2023"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Power BI Data Analyst Associate (PL-300)",
+      "issuer": "Microsoft"
+    },
+    {
+      "title": "Data Analytics Professional Certificate",
+      "issuer": "Google"
+    }
+  ],
+  "languages": [
+    "English"
+  ]
+}
