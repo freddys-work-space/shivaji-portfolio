@@ -41,19 +41,6 @@ const Navbar = () => {
       <div className="max-w-10xl mx-auto flex items-center justify-center pointer-events-auto">
         {/* Desktop Navigation */}
         <div className="hidden md:flex bg-black/10 dark:bg-white/10 backdrop-blur-xl items-center rounded-2xl border border-white/5 dark:border-black/5 shadow-2xl overflow-hidden p-0">
-          {/* Logo Block */}
-          <a
-            href="#"
-            onClick={(e) => scrollToSection(e, "#about")}
-            className={cn(
-              "h-12 flex items-center justify-center bg-black px-6 text-sm text-white transition-all duration-300 dark:bg-white dark:text-black font-black tracking-tight",
-              "rounded-l-2xl",
-              isActiveLink(links[0].href) && "rounded-r-2xl mr-2"
-            )}
-          >
-            SC.
-          </a>
-
           {/* Navigation Blocks */}
           <div className="flex items-center">
             {links.map((link, index) => {
@@ -61,7 +48,6 @@ const Navbar = () => {
               const prevIsActive = index > 0 ? isActiveLink(links[index - 1].href) : false;
               const nextIsActive = index < links.length - 1 ? isActiveLink(links[index + 1].href) : false;
 
-              const logoIsPreceding = index === 0;
               const resumeIsFollowing = index === links.length - 1;
 
               return (
@@ -75,7 +61,8 @@ const Navbar = () => {
                       ? "mx-2 rounded-2xl font-bold bg-primary text-primary-foreground shadow-xl scale-110 z-20"
                       : cn(
                         "hover:bg-white/10 dark:hover:bg-black/5",
-                        (prevIsActive || (logoIsPreceding && isActiveLink(links[0].href))) && "rounded-l-2xl ml-2",
+                        index === 0 && "rounded-l-2xl",
+                        prevIsActive && "rounded-l-2xl ml-2",
                         (nextIsActive || (resumeIsFollowing && isActiveLink(links[links.length - 1].href))) && "rounded-r-2xl mr-2"
                       )
                   )}
